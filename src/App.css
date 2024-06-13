@@ -1,38 +1,112 @@
-.App {
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 40px;
+  margin: 100px 0;
+  justify-items: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+
+/* .txt-pt {
+  color: salmon;
+  font-weight: bold;
+}
+
+.line-lg {
+  display: block;
+  border-bottom: 2px solid lightgray;
+}
+
+.product-detail {
+  display: inline-flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  column-gap: 100px;
+}
+
+.product-detail .item {
+  width: 400px;
+}
+.product-detail .info {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.quantity {
+  width: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  height: 20px;
+  text-align: center;
+  appearance: none;
+}
+
+
+.text-group {
+  display: flex;
+  padding: 10px 0;
+}
+
+img {width: 100%}
+select {
+  width: 100%;
+  font-size: 16px;
+  line-height: 40px;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:#333;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #777;
+  background: none;
+  border-radius: 0;
+  padding-right: 32px;
+}
+
+.flex { display: flex;}
+.flex.gap-1 {gap:10px;}
+
+.btn{
+  background-color: royalblue;
   color: white;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  margin: 0 2px;
+  padding: 0 10px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:active {
+  box-shadow: none;
 }
+
+.btn-lg {
+  width: 100%;
+  min-height: 40px;
+}
+
+.btn.btn-outline {
+  border: 2px solid gray;
+  background-color: white;
+  color: gray;
+} */
